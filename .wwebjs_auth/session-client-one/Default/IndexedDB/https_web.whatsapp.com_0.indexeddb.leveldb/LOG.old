@@ -1,0 +1,13 @@
+2023/12/29-15:51:14.312 4354 Reusing MANIFEST C:\Users\huevang\sendMessagetoWhatsapp\Apiwhatsapp_web.js\testApiWhatsapp\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/29-15:51:14.313 4354 Recovering log #238
+2023/12/29-15:51:14.493 4354 Reusing old log C:\Users\huevang\sendMessagetoWhatsapp\Apiwhatsapp_web.js\testApiWhatsapp\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000238.log 
+2023/12/29-15:51:31.060 25b0 Level-0 table #246: started
+2023/12/29-15:51:31.083 25b0 Level-0 table #246: 1093115 bytes OK
+2023/12/29-15:51:31.084 25b0 Delete type=0 #238
+2023/12/29-15:51:31.097 25b0 Compacting 1@1 + 4@2 files
+2023/12/29-15:51:31.161 25b0 Generated table #247@1: 25965 keys, 2192342 bytes
+2023/12/29-15:51:31.193 25b0 Generated table #248@1: 11812 keys, 2191981 bytes
+2023/12/29-15:51:31.252 25b0 Generated table #249@1: 47564 keys, 2217159 bytes
+2023/12/29-15:51:31.310 25b0 Generated table #250@1: 38170 keys, 966959 bytes
+2023/12/29-15:51:31.310 25b0 Compacted 1@1 + 4@2 files => 7568441 bytes
+2023/12/29-15:51:31.311 25b0 compacted to: files[ 0 0 4 0 0 0 0 ]
