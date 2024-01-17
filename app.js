@@ -7,6 +7,7 @@ const cors = require('cors');
 const bodyParser= require('body-parser')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const sendToUser = require('./routes/sendtouser')
 const { inicializarWSP } = require('./config/inicializarWSP');
 var app = express();
 
@@ -26,13 +27,18 @@ app.use(express.static(path.join(__dirname, 'public')));
   try {
     await inicializarWSP();
     console.log('WhatsApp initialized successfully!');
+     // Delay the execution by 10 seconds
+    setTimeout(() => {
+      // Set up the route after the delay
+      app.use('/sendtouser', sendToUser);
+      console.log('Route set up successfully!');
+  }, 10000); 
 } catch (error) {
     console.error('Error initializing WhatsApp:', error);
     process.exit(1);
 }
 
 })()
-
 
 
 app.use('/', indexRouter);
